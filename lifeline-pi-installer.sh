@@ -7,7 +7,9 @@ curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/lifel
 curl https://raw.githubusercontent.com/bmswens/lifeline/blob/master/lifeline-pi/lifeline.sh > /opt/lifeline-pi/lifeline.sh
 curl https://raw.githubusercontent.com/bmswens/lifeline/blob/master/lifeline-pi/lifeline.yml > /opt/lifeline-pi/lifeline.yml
 curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/temperatures/__init__.py > /opt/lifeline-pi/temperatures/__init__.py
-curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/temperatures/raspbian.py > /opt/lifeline-pi/temperatures/reaspbian.py
+curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/temperatures/raspbian.py > /opt/lifeline-pi/temperatures/raspbian.py
+curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/lifeline.sh > /opt/lifeline-pi/lifeline.sh
+curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/lifeline.yml > /opt/lifeline-pi/lifeline.yml
 chmod 755 /opt/lifeline-pi/lifeline.sh
 chmod 766 /opt/lifeline-pi/lifeline.yml
 
