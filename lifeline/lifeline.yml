@@ -1,0 +1,11 @@
+client:
+  name: SwensonServer
+  ip: 192.168.0.15
+  os: centos
+  temperatures:
+    k10temp-pci-00c3:
+      type: cpu
+      offset: -60
+server:
+  ip: 192.168.0.15
+  port: 9200
