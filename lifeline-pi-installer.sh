@@ -2,9 +2,12 @@
 
 echo "Installing files from github"
 mkdir /opt/lifeline-pi/
+mkdir /opt/lifeline-pi/temperatures
 curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/lifeline.py > /opt/lifeline-pi/lifeline.py
 curl https://raw.githubusercontent.com/bmswens/lifeline/blob/master/lifeline-pi/lifeline.sh > /opt/lifeline-pi/lifeline.sh
 curl https://raw.githubusercontent.com/bmswens/lifeline/blob/master/lifeline-pi/lifeline.yml > /opt/lifeline-pi/lifeline.yml
+curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/temperatures/__init__.py > /opt/lifeline-pi/temperatures/__init__.py
+curl https://raw.githubusercontent.com/bmswens/lifeline/master/lifeline-pi/temperatures/raspbian.py > /opt/lifeline-pi/temperatures/reaspbian.py
 chmod 755 /opt/lifeline-pi/lifeline.sh
 chmod 766 /opt/lifeline-pi/lifeline.yml
 
