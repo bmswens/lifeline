@@ -1,0 +1,5 @@
+elasticsearch-data
+grafana-data
+linux-venv
+.gitignore
+.idea
