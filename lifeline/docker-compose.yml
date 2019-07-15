@@ -17,7 +17,7 @@ services:
         aliases:
           - elasticsearch
     volumes:
-      - /mnt/samba/projects/lifeline/elasticsearch-data:/usr/share/elasticsearch/data
+      - /opt/lifeline/elasticsearch:/usr/share/elasticsearch/data
 
   grafana:
     image: grafana/grafana:latest
@@ -29,7 +29,7 @@ services:
         aliases:
           - grafana
     volumes:
-      - /mnt/samba/projects/lifeline/grafana-data:/var/lib/grafana
+      - /opt/lifeline/grafana:/var/lib/grafana
 
 networks:
   standard-network:
