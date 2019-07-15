@@ -24,6 +24,8 @@ deactivate
 
 echo "Starting docker images"
 cd /opt/lifeline
+chown 472:472 /opt/lifeline/grafana
+chmod 777 /opt/lifeline/elasticsearch
 docker-compose up
 cd $(dir)
 
